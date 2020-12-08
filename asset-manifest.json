@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React_sign_language_detector/static/css/main.e95eed6c.chunk.css",
+    "main.js": "/React_sign_language_detector/static/js/main.07dbcfdb.chunk.js",
+    "main.js.map": "/React_sign_language_detector/static/js/main.07dbcfdb.chunk.js.map",
+    "runtime-main.js": "/React_sign_language_detector/static/js/runtime-main.da77c770.js",
+    "runtime-main.js.map": "/React_sign_language_detector/static/js/runtime-main.da77c770.js.map",
+    "static/js/2.691a2c7c.chunk.js": "/React_sign_language_detector/static/js/2.691a2c7c.chunk.js",
+    "static/js/2.691a2c7c.chunk.js.map": "/React_sign_language_detector/static/js/2.691a2c7c.chunk.js.map",
+    "index.html": "/React_sign_language_detector/index.html",
+    "precache-manifest.0a93a4fdd5a4e18366c4c15f2804da9f.js": "/React_sign_language_detector/precache-manifest.0a93a4fdd5a4e18366c4c15f2804da9f.js",
+    "service-worker.js": "/React_sign_language_detector/service-worker.js",
+    "static/css/main.e95eed6c.chunk.css.map": "/React_sign_language_detector/static/css/main.e95eed6c.chunk.css.map",
+    "static/js/2.691a2c7c.chunk.js.LICENSE.txt": "/React_sign_language_detector/static/js/2.691a2c7c.chunk.js.LICENSE.txt",
+    "static/js/main.07dbcfdb.chunk.js.LICENSE.txt": "/React_sign_language_detector/static/js/main.07dbcfdb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da77c770.js",
+    "static/js/2.691a2c7c.chunk.js",
+    "static/css/main.e95eed6c.chunk.css",
+    "static/js/main.07dbcfdb.chunk.js"
+  ]
+}
