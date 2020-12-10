@@ -1,5 +1,7 @@
-import { Finger, FingerCurl, FingerDirection } from '../FingerDescription';
-import GestureDescription from '../GestureDescription';
+import { Finger, FingerCurl, FingerDirection, GestureDescription } from 'fingerpose';
+
+// import { Finger, FingerCurl, FingerDirection } from '../FingerDescription';
+// import GestureDescription from '../GestureDescription';
 
 
 // describe thumbs up gesture 👍
