@@ -8,16 +8,43 @@ import { drawHand } from "./utilities.js";
 
 import * as fp from "fingerpose";
 
-import victoryDescription from './Gestures/Victory';
-import thumbsUpDescription from './Gestures/ThumbsUp';
-import hiDescription from './Gestures/Hi';
-import yesDescription from './Gestures/Yes';
-import callmeDescription from './Gestures/Callme';
-import good_luckDescription from './Gestures/GoodLuck';
-import whereDescription from './Gestures/Where';
-import whyDescription from './Gestures/Why';
-import iamDescription from './Gestures/Iam';
-import whoDescription from './Gestures/Who';
+// import victoryDescription from './Gestures/Victory';
+// import thumbsUpDescription from './Gestures/ThumbsUp';
+// import hiDescription from './Gestures/Hi';
+// import yesDescription from './Gestures/Yes';
+// import callmeDescription from './Gestures/Callme';
+// import good_luckDescription from './Gestures/GoodLuck';
+// import whereDescription from './Gestures/Where';
+// import whyDescription from './Gestures/Why';
+// import iamDescription from './Gestures/Iam';
+// import whoDescription from './Gestures/Who';
+
+import oneDescription from './Signs/1';
+import twoDescription from './Signs/2';
+import threeDescription from './Signs/3';
+import fourDescription from './Signs/4';
+import fiveDescription from './Signs/5';
+import sixDescription from './Signs/6';
+import sevenDescription from './Signs/7';
+import eightDescription from './Signs/8';
+import nineDescription from './Signs/9';
+import badDescription from './Signs/Bad';
+import cannotDescription from './Signs/Cannot';
+import comeDescription from './Signs/Come';
+import dirtyDescription from './Signs/Dirty';
+import easyDescription from './Signs/Easy';
+import goodDescription from './Signs/Good';
+import iloveyouDescription from './Signs/Iloveyou';
+import maybeDescription from './Signs/Maybe';
+import meDescription from './Signs/Me';
+import noDescription from './Signs/No';
+import surprisedDescription from './Signs/Surprised';
+import thankyouDescription from './Signs/Thank-you';
+import todayDescription from './Signs/Today';
+import whatDescription from './Signs/What';
+import whyDescription from './Signs/Why';
+import yesDescription from './Signs/Yes';
+import youDescription from './Signs/You';
 
 function App() {
 
@@ -33,7 +60,7 @@ function App() {
 
   const runHandpose = async () => {
     const net = await handpose.load();
-    console.log("Handpose model loaded.");
+    // console.log("Handpose model loaded.");
     //  Loop and detect hands
     setInterval(() => {
       detect(net);
@@ -61,24 +88,52 @@ function App() {
       canvasRef.current.height = videoHeight;
       // Make Detections
       const hand = await net.estimateHands(video);
-      console.log(hand);
+      // console.log(hand);
 
 
       if (hand.length > 0) {
         const GE = new fp.GestureEstimator([
-          victoryDescription,
-          thumbsUpDescription,
-          hiDescription,
-          yesDescription,
-          callmeDescription,
-          good_luckDescription,
-          whereDescription,
+          // victoryDescription,
+          // thumbsUpDescription,
+          // hiDescription,
+          // yesDescription,
+          // callmeDescription,
+          // good_luckDescription,
+          // whereDescription,
+          // whyDescription,
+          // iamDescription,
+          // whoDescription,
+
+          oneDescription,
+          twoDescription,
+          threeDescription,
+          fourDescription,
+          fiveDescription,
+          sixDescription,
+          sevenDescription,
+          eightDescription,
+          nineDescription,
+          badDescription,
+          cannotDescription,
+          comeDescription,
+          dirtyDescription,
+          easyDescription,
+          goodDescription,
+          iloveyouDescription,
+          maybeDescription,
+          meDescription,
+          noDescription,
+          surprisedDescription,
+          thankyouDescription,
+          todayDescription,
+          whatDescription,
           whyDescription,
-          iamDescription,
-          whoDescription,
+          yesDescription,
+          youDescription
         ]);
 
         const gesture = await GE.estimate(hand[0].landmarks, 8);
+        console.log(gesture);
         if (gesture.gestures !== undefined && gesture.gestures.length > 0) {
           // console.log(gesture.gestures);
 
@@ -88,11 +143,12 @@ function App() {
           const maxConfidence = confidence.indexOf(
             Math.max.apply(null, confidence)
           );
-          // console.log(gesture.gestures[maxConfidence].name);
+          // console.log(confidence);
+          console.log(gesture);
           setEmoji(gesture.gestures[maxConfidence].name);
-          console.log(emoji);
+          // console.log(emoji);
           signs.push(emoji);
-          console.log(signs);
+          // console.log(signs);
         }
       }
       // Draw mesh
@@ -218,7 +274,7 @@ class CircularQueue {
   }
 
   print() {
-    console.log(this.#list.filter((el) => el !== null));
+    // console.log(this.#list.filter((el) => el !== null));
   }
   tail(){
     return this.#list[this.#tail];
