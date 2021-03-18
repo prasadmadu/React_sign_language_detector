@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/React_sign_language_detector/static/css/main.25ee215b.chunk.css",
-    "main.js": "/React_sign_language_detector/static/js/main.f67fd2c6.chunk.js",
-    "main.js.map": "/React_sign_language_detector/static/js/main.f67fd2c6.chunk.js.map",
+    "main.css": "/React_sign_language_detector/static/css/main.ff2a4870.chunk.css",
+    "main.js": "/React_sign_language_detector/static/js/main.8077f396.chunk.js",
+    "main.js.map": "/React_sign_language_detector/static/js/main.8077f396.chunk.js.map",
     "runtime-main.js": "/React_sign_language_detector/static/js/runtime-main.da77c770.js",
     "runtime-main.js.map": "/React_sign_language_detector/static/js/runtime-main.da77c770.js.map",
-    "static/js/2.209ac309.chunk.js": "/React_sign_language_detector/static/js/2.209ac309.chunk.js",
-    "static/js/2.209ac309.chunk.js.map": "/React_sign_language_detector/static/js/2.209ac309.chunk.js.map",
+    "static/js/2.2b05c72e.chunk.js": "/React_sign_language_detector/static/js/2.2b05c72e.chunk.js",
+    "static/js/2.2b05c72e.chunk.js.map": "/React_sign_language_detector/static/js/2.2b05c72e.chunk.js.map",
     "index.html": "/React_sign_language_detector/index.html",
-    "precache-manifest.21c38dc62735d7fb5c9b3bdb0a9131a1.js": "/React_sign_language_detector/precache-manifest.21c38dc62735d7fb5c9b3bdb0a9131a1.js",
+    "precache-manifest.a2ba39dd1a1ea824649372086408bb1a.js": "/React_sign_language_detector/precache-manifest.a2ba39dd1a1ea824649372086408bb1a.js",
     "service-worker.js": "/React_sign_language_detector/service-worker.js",
-    "static/css/main.25ee215b.chunk.css.map": "/React_sign_language_detector/static/css/main.25ee215b.chunk.css.map",
-    "static/js/2.209ac309.chunk.js.LICENSE.txt": "/React_sign_language_detector/static/js/2.209ac309.chunk.js.LICENSE.txt"
+    "static/css/main.ff2a4870.chunk.css.map": "/React_sign_language_detector/static/css/main.ff2a4870.chunk.css.map",
+    "static/js/2.2b05c72e.chunk.js.LICENSE.txt": "/React_sign_language_detector/static/js/2.2b05c72e.chunk.js.LICENSE.txt",
+    "static/media/favicon.ico": "/React_sign_language_detector/static/media/favicon.57b5a31d.ico"
   },
   "entrypoints": [
     "static/js/runtime-main.da77c770.js",
-    "static/js/2.209ac309.chunk.js",
-    "static/css/main.25ee215b.chunk.css",
-    "static/js/main.f67fd2c6.chunk.js"
+    "static/js/2.2b05c72e.chunk.js",
+    "static/css/main.ff2a4870.chunk.css",
+    "static/js/main.8077f396.chunk.js"
   ]
 }
